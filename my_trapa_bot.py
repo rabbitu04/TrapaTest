@@ -24,6 +24,10 @@ async def on_command_error(ctx, error):
         pass
     elif isinstance(error, commands.errors.MissingAnyRole):
         await ctx.send('Permission denied.')
+    elif isinstance(error, commands.errors.ChannelNotFound):
+        await ctx.send('Channel not found.')
+    elif isinstance(error, commands.errors.UserNotFound):
+        await ctx.send('User not found.')
     else:
         print(error)
         await ctx.send(f'Something wrong. Please contact {constants.AUTHOR}')

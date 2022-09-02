@@ -2,11 +2,11 @@
 Create a discord bot.
 
 What this bot can do:
- - echo: repeat input.
- - kick: kick user. (Need a role with permission)
- - ban: ban user. (Need a role with permission)
- - text_channel: create channel with name you want.
- - broadcast: let the bot send message to specified channel at specified time. (Using crontab setting style) The jobs will be delete once you stop the python script.
+ - echo: Repeat input.
+ - kick: Kick user. (Need a role with permission)
+ - ban: Ban user. (Need a role with permission)
+ - text_channel: Create a channel with name you want.
+ - broadcast: Let the bot send message to specified channel at specified time. (Using crontab setting style) The jobs will be deleted once you stop the python script.
 
 Set up steps (on windows 11 with powershell):
  1. Create an discord bot. Please refer to https://discordpy.readthedocs.io/en/stable/discord.html
